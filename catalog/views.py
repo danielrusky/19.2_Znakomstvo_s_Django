@@ -14,4 +14,3 @@ def contact(request):
     return render(request, 'catalog/contacts.html')
 
 
-##
