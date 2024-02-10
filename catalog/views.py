@@ -12,3 +12,6 @@ def contact(request):
         message = request.POST.get('message')
         print(f'{name} ({phone}) : {message}')
     return render(request, 'catalog/contacts.html')
+
+
+##
